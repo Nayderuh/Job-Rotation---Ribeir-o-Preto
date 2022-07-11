@@ -1,1 +1,38 @@
+//DART
+//1
+void main() {
+  int indice = 13, soma = 0, k = 0;
+  while (k < indice) {
+    k++;
+    soma = soma + k;
+  }
+  print(soma);
+}
 
+//2
+int fibonacci(int y) {
+  return y < 2 ? y : (fibonacci(y - 1) + fibonacci(y - 2));
+}
+
+void main() {
+  var x = 12;
+  print('ultilizando $x temos ${fibonacci(x)}');
+}
+
+/*3
+a) 9
+b) 128
+c) 49
+d)100
+e)13
+f)200
+
+*/
+
+//4
+
+
+//5
+void main() {
+    print("Ribeirão Preto".split('').reversed.join());
+}
